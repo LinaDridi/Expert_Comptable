@@ -83,19 +83,19 @@
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
 
-                                    <li class="dropdown  mega-dropdown">
+                                    <li>
                                         <a href="#"> Accueil </a>
                                     </li>
-                                    <li class="dropdown mega-dropdown">
-                                        <a href="page-about-me.html" class="dropdown-toggle" data-toggle="dropdown">Le cabinet</a>
+                                    <li>
+                                        <a href="page-about-me.html">Le cabinet</a>
 
                                     </li>
-                                    <li class="dropdown mega-dropdown">
-                                        <a href="blog-grid-full-width.html" class="dropdown-toggle" data-toggle="dropdown">Actualités</a>
+                                    <li>
+                                        <a href="blog-grid-full-width.html">Actualités</a>
 
                                     </li>
-                                    <li class="dropdown mega-dropdown">
-                                        <a href="page-services-2.html" class="dropdown-toggle" data-toggle="dropdown">Nos services</a>
+                                    <li>
+                                        <a href="page-services-2.html">Nos services</a>
 
                                     </li>
                                     <li>
@@ -124,7 +124,12 @@
     inner header end-->
 
     <!--inner content start-->
+
+
     <div class="main-content">
+        <h1 class="wew fadeInUp" data-wew-delay="1s">NOUS
+            <span>CONTACTER</span>
+        </h1>
         <div class="container">
 
             <div class="contact-wrap">
@@ -250,12 +255,9 @@
                     <div class="footer-logo ">
                         <img src="images/wob.png ">
                     </div>
-                    <p style="color:#434c9a">Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium
+                    <p>Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium
                         lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                        Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nunc aliquet est at erat semper,
-                        pulvinar scelerisque nisi mattis. Sed facilisis pretium elit, in sollicitudin neque dignissim vitae.
-                        Cras eget tellus sit amet tortor porta venridiculus mus. Nulla efficitur, ipsum ac fringilla rhoncus,
-                        augue nisl lobortis tortor, in rhoncus elit lacus vitae sem. ...
+                        Curae;
                         <a href="# ">Read More</a>
                     </p>
                     <div class="social-icons ">
@@ -278,8 +280,9 @@
 
                 </div>
 
+
                 <div class="col-md-3 col-sm-4 col-xs-12 ">
-                    <h3>Quick Links</h3>
+                    <h3>Navigation</h3>
                     <ul class="footer-blocks width-50 ">
                         <li>
                             <a href="# "> Accueil </a>
@@ -300,6 +303,9 @@
                             <a href="page-contact-us-1.html"> Contact </a>
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12 ">
+                    <!--ajouter .col-md-3={width:25%}-->
                     <h3 class="m-t-10 ">Contact</h3>
                     <div class="footer-address ">Cabinet Wajdi ABDELHEDI - Résidence LES LILAS, Bloc B, 5ème étage, bureau n°11 Centre Urbain Nord, 1082,
                         Tunis
@@ -313,9 +319,24 @@
                         <a href="# ">(+216) 71 948 177</a>
                     </div>
 
-
                 </div>
 
+
+            </div>
+            <div class="col-md-12">
+                <div class="newsletter">
+                    <h2>Inscription Newsletter</h2>
+                    <p class="heading-description"></p>
+                    <div class="newsletter-form">
+                        <form class="home-newsletter" action="#">
+                            <div class="newsletter-container">
+                                <i class="fa fa-envelope-o"></i>
+                                <input type="email" name="email" id="email" placeholder="Entrez votre adresse EMAIL..." required>
+                                <input type="submit" name="submit" id="submmit" value="S'inscire">
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="footerWrp ">
                 <div class="row ">
@@ -327,7 +348,6 @@
             </div>
         </div>
     </div>
-
     <script type="text/javascript " src="js/modernizr.min.js "></script>
     <script type="text/javascript " src="js/angular.min.js "></script>
     <script type="text/javascript " src="js/angular-animate.min.js "></script>
