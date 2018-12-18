@@ -2660,7 +2660,7 @@ a.btn-style-6.dark-skin:hover {
     padding-top: 15px;
     font-size: 14px;
     line-height: 22px;
-    color: #a6a6a6;
+    color: #000000;
     margin-top: 8px;
 }
 
@@ -2738,7 +2738,7 @@ a.btn-style-6.dark-skin:hover {
 
 .footer-blocks li a {
     text-decoration: none;
-    color: #a6a6a6;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -2754,7 +2754,7 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .footer-address {
-    color: #a6a6a6;
+    color: #000000;
     font-size: 14px;
     position: relative;
     padding-left: 22px;
@@ -2779,7 +2779,7 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .call-us a {
-    color: #a6a6a6;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -2801,7 +2801,7 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .fax a {
-    color: #a6a6a6;
+    color: #000000;
     font-size: 14px;
 }
 
