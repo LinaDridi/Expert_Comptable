@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Big" ng-controller="AppCtrl">
+
+
+<!-- Mirrored from hi-theme.com//html/big-construct/page-about-me.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Oct 2018 21:01:10 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le Cabinet</title>
+
+
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-loader"></div>
+    <!-- Top bar start -->
+    <div class="top-bar md-padding dialogdemoBasicUsage" id="popupContainer" style="background:#434c9a">
+        <div class="container">
+            <!-- Row Start -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+
+                    <ul class="left topbar-blocks">
+                        <li>
+                            <a href="mailto:info@yourdomain.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i> contact@wab-expert.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+0801 2345 6789">
+                                <i class="fa fa-phone" aria-hidden="true"></i> (+216) 71 948 214 </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="topbar-blocks">
+                        <li>
+                            <a class="login-popup md-primary md-raised" ng-click="showTabDialog($event)" flex-sm="100" flex-md="100" flex-gt-md="auto">
+                                <i class="fa fa-user" aria-hidden="true"></i> Login /Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+    </div>
+    <!-- Top bar end -->
+
+    <!-- Header start -->
+    <div id="sticker" class="header">
+        <div class="container">
+            <!-- Row Rtart -->
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="logo">
+                        <a href="index-1.html">
+                            <img src="images/wob.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9  col-xs-6">
+                    <!--navegation-->
+                    <div class="navigationwrape">
+                        <div class="navbar navbar-default" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+
+                                    <li class="dropdown  mega-dropdown">
+                                        <a href="#"> Accueil </a>
+                                    </li>
+                                    <li class="dropdown mega-dropdown">
+                                        <a href="page-about-me.html" class="dropdown-toggle" data-toggle="dropdown">Le cabinet</a>
+
+                                    </li>
+                                    <li class="dropdown mega-dropdown">
+                                        <a href="blog-grid-full-width.html" class="dropdown-toggle" data-toggle="dropdown">Actualités</a>
+
+                                    </li>
+                                    <li class="dropdown mega-dropdown">
+                                        <a href="page-services-2.html" class="dropdown-toggle" data-toggle="dropdown">Nos services</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="elements-icon-boxs.html"> Publication</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-contact-us-1.html"> Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+    </div>
+
+
+    <div class="flexslider">
+        <ul class="slides">
+
+            <li style="background-image:url(images/slider/s1.jpg);">
+                <div class="overlay"></div>
+
+                <div class="meta">
+                    <h1><span>WAB- expert comptables </span></h1>
+                    <h2><span> </span></h2>
+                    <div class="local-scroll p-t-60">
+                        <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Plus</a>
+                        <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Nous contacter</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image:url(images/slider/s2.jpg);">
+
+                <div class="overlay"></div>
+                <div class="meta">
+                    <h1><span>Tous vos services</span></h1>
+                    <h2><span></span></h2>
+                    <div class="local-scroll p-t-60">
+                        <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Plus</a>
+                        <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Nous contacter</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+        
+       <section class="about-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="wew fadeInUp" data-wew-delay="1s">LE <span>CABINET</span></h1>
+                    <div class="about-section wew fadeInUp" data-wew-delay="1s"></div>
+                    <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">De l'établissement des états financiers au conseil en matière de gestion, de droit des affaires, de droit social, ou encore de conseil à l'export, l'Expert-comptable est le conseil permanent du chef d'entreprise. Il apporte également une réponse ponctuelle et adaptée aux différents évènements de la vie de l'entreprise. 
+Nous sommes dédiés au Service et au Conseil auprès des entreprises. 
+Notre effectif est spécialisé afin d'offrir un niveau de qualité maximum dans nos différents domaines d'intervention.</br>
+<blockquote class= "aboutme" style="direction: rtl; font-size: 12px;font-weight: bold;color: rgba(64, 64, 64, 1); font-style: italic;">
+Wajdi ABDELHEDI </br>
+Expert Comptable</br>
+Membre de l’Ordre des Experts Comptables de Tunisie</blockquote> </p>
+                   
+                    <h3 class="m-b-50"></h3>
+
+
+                 
+                </div>
+                <div class="col-md-5">
+                    <div class="wew fadeInRightBig"><img src="images/aboutme1.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="page-section">
+        <div class="container relative p-b-60 p-t-30">
+            <div class="row p-b-60">
+                <div class="col-md-8 col-xs-12 col-md-offset-2">
+                    <h1>NOS SERVICES</h1>
+                    <p class="text-center"></p>
+                </div>
+            </div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs big-tabs p-b-30 p-b-sm-0">
+                <li class="active">
+                    <a href="#service-branding" data-toggle="tab" aria-expanded="true">
+
+                        <div class="big-tabs-icon">
+                            <span class="fa fa-users"></span>
+							 
+                        </div>
+
+                        Social
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#service-web-design" data-toggle="tab" aria-expanded="false">
+
+                        <div class="big-tabs-icon">
+                            <span class="fa fa-gavel"></span>
+                        </div>
+
+                        Juridique
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#service-graphic" data-toggle="tab" aria-expanded="false">
+
+                        <div class="big-tabs-icon">
+                            <span class="fa fa-pencil-square-o"></span>
+                        </div>
+
+                        Etude de faisabilité / Business plan
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#service-development" data-toggle="tab" aria-expanded="false">
+
+                        <div class="big-tabs-icon">
+                            <span class="fa fa-comments-o"></span>
+                        </div>
+
+                       Conseil
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- End Nav tabs -->
+
+            <!-- Tab panes -->
+            <div class="service-tab tab-content tpl-tabs-cont">
+
+                <!-- Service Item -->
+                <div class="tab-pane fade active in" id="service-branding">
+
+                    <div class="section-text">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-md-40 mb-xs-30">
+                                <div class="icon-box dgn-5">
+                                    <h4><i class="fa fa-users"></i> Social</h4>
+                                    <p><center><img src="images/services/social.jpg" /></center>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-12 m-t-50 m-b-xs-30"></br>
+                                Le cabinet Wajdi ABDELHEDI est capable de gérer de A à Z la relation contractuelle entre les employés et l’entreprise, dans le respect de la loi. Cela va de la rédaction du contrat de travail, à sa gestion dans le temps au fil de ses évolutions, jusqu’à sa rupture. Le cabinet Wajdi ABDELHEDI élabore les paies, les charges sociales et toute formalité afférente à ce domaine.</div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Service Item -->
+
+                <!-- Service Item -->
+                <div class="tab-pane fade" id="service-web-design">
+
+                    <div class="section-text">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-md-40 mb-xs-30">
+                                <div class="icon-box dgn-5">
+                                    <h4><i class="fa fa-gavel"></i> Juridique</h4>
+                                    <p><center><img src="images/services/Juridique.jpg" /></center>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-12 m-t-50 m-b-xs-30">
+                                En sa qualité de Conseil de haut niveau, le cabinet Wajdi ABDELHEDI s’est doté d’un département juridique capable de réaliser la naissance de personnes morales, d’en assurer l’existence, la transformation ou les évolutions, et de les dissoudre. Ce service concerne autant les sociétés, que les entrepreneurs individuels. Nous gérons, la constitution de l'entreprise, les divers actes relatifs à la vie des sociétés (assemblées générales ordinaires & extraordinaires, notamment toutes les modifications de statuts, comme le transfert du siège, le changement de dénomination, l'augmentation du capital...). L’aspect juridique des sociétés est étroitement imbriqué aux considérations fiscales et sociales et se trouve être complètement intégré au Conseil.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Service Item -->
+
+                <!-- Service Item -->
+                <div class="tab-pane fade" id="service-graphic">
+
+                    <div class="section-text">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-md-40 mb-xs-30">
+                                <div class="icon-box dgn-5">
+                                    <h4><i class="fa fa-pencil-square-o"></i> Etude de faisabilité / Business plan</h4>
+                                     <p><center><img src="images/services/BP.jpg" /></center>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-12 m-t-50 m-b-xs-30"></br>
+                                Le cabinet Wajdi ABDELHEDI peut réaliser les études de faisabilité et les business plan. Ceux ci permettent de mettre en forme l’ensemble des données commerciales, techniques et financières d’un projet. Vous disposez, alors, d’un support pour communiquer avec vos partenaires et pour les convaincre.
+</div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Service Item -->
+
+                <!-- Service Item -->
+                <div class="tab-pane fade" id="service-development">
+
+                    <div class="section-text">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-md-40 mb-xs-30">
+                                <div class="icon-box dgn-5">
+                                    <h4><i class="fa fa-comments-o"></i> Conseil</h4>
+                                    <p><center><img src="images/services/conseil.jpg" /></center>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-12 m-t-50 m-b-xs-30">
+                               Le cabinet Wajdi ABDELHEDI a développé au fil du temps un savoir faire particulier en matière de conseil. Le cabinet Wajdi ABDELHEDI est capable de simuler des situations extrêmement complexes, de proposer la mise en place de nouvelles structures et de réaliser le travail dans d’excellentes conditions, et ce notamment en matière de : • Conseil en gestion : assistance à la création de l'entreprise, projets d’investissements, contrôle budgétaire, tableaux de bord... • Conseil en gestion financière : assistance à la gestion de trésorerie, à la recherche de financements et aux relations avec les organismes bancaires et financiers... • Formation : plan de formation, aide aux recrutements... • Conseil de l'entreprise en difficulté : restructuration, plan de continuation... • Evaluation d’entreprises dans le cadre de cessions, apports, successions, partages, donations, transmissions...
+							 </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Service Item -->
+
+               
+
+            </div>
+            <!-- End Tab panes -->
+
+        </div>
+    </section>
+     
+
+    
+ 
+    <section id="blog" class="service-container">
+        <div class="container">
+		<div class="row p-b-60">
+                <div class="col-md-8 col-xs-12 col-md-offset-2">
+                    <h1>NOS SERVICES</h1>
+                    <p class="text-center"></p>
+                </div>
+            </div>
+            <!-- Blog List start -->
+            <div class="blog-container">
+                <ul class="row blog-grid-show">
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/1.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">Ce qui reste pour la loi sur les startups</a></h4>
+                                    <div class="post-info-meta">Date: <span>10/05/2015</span> </a></div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>Ce qui reste pour la loi sur les startups...</p>
+                                    <a href="blog-details-full-width.html" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/2.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">Dispositions fiscales prévues suite à la promulgation de la loi de finances pour la gestion 2018</a></h4>
+                                    <div class="post-info-meta">Date: <span>27/12/2017</span></div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>Dispositions fiscales prévues suite à la promulgation de la loi de finances pour la gestion 2018...</p>
+                                    <a href="#" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/3.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">PRINCIPALES DISPOSITIONS PRÉVUES PAR LA LOI DE FINANCES POUR LA GESTION 2015</a></h4>
+                                    <div class="post-info-meta">Date: <span>08/01/2015</span> </div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>La loi n° 2014 - 59 du 26 décembre 2014, portant loi de finances pour l'année 2015, a prévu les principales dispositions suivantes ...</p>
+                                    <a href="#" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                 
+            </div>
+
+        
+        </div>
+    </section>
+     
+    
+    <section id="contact" class="page-section main-content">
+        <div class="container">
+           
+            <h1 class="wew fadeInUp" data-wew-delay="1s">NOUS
+            <span>CONTACTER</span>
+        </h1>
+        <div class="container">
+
+            <div class="contact-wrap">
+                <div class="row">
+                    <div class="col-md-4 column">
+                        <div class="contact-now">
+                            <div class="contact">
+                                <div class="information">
+                                    <strong>Adresse:</strong>
+                                    <p>Cabinet Wajdi ABDELHEDI - Résidence LES LILAS, Bloc B, 5ème étage, bureau n°11 Centre
+                                        Urbain Nord, 1082, Tunis</p>
+                                </div>
+                            </div>
+
+                            <!-- Contact Info -->
+                            <div class="contact">
+                                <div class="information">
+                                    <strong>adresse email:</strong>
+                                    <p>contact@wab-expert.com</p>
+
+                                </div>
+                            </div>
+                            <!-- Contact Info -->
+                            <div class="contact">
+                                <div class="information">
+                                    <strong>telephone</strong>
+                                    <p>(+216) 71 948 214 </p>
+                                    <p>(+216) 71 949 214</p>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <div class="information">
+                                    <strong>Fax</strong>
+                                    <p>(+216) 71 948 177</p>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <div class="information">
+                                    <strong>Réseaux sociaux</strong>
+                                    <br>
+                                    <a href="https://www.facebook.com/wabexpert" class="btn-floating btn-large btn-fb" style="padding:10px;color:#434c9a" target="_blank ">
+                                        <i class="fa fa-facebook fa-2x"></i>
+                                    </a>
+                                    <a href="https://twitter.com/WajdiABDELHEDI" class="btn-floating btn-large btn-tw" style="padding:10px;color:#434c9a" target="_blank ">
+                                        <i class="fa fa-twitter fa-2x"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/wajdi-abdelhedi-178148a" class="btn-floating btn-large btn-li" style="padding:10px;color:#434c9a"
+                                        target="_blank ">
+                                        <i class="fa fa-linkedin fa-2x"></i>
+                                    </a>
+                                    <a href="#" class="btn-floating btn-large btn-email" style="padding:10px;color:#434c9a" target="_blank ">
+                                        <i class="fa fa-envelope fa-2x"></i>
+
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Contact Info -->
+                        </div>
+                        <!-- Contact Now -->
+                    </div>
+
+
+                    <div class="col-md-8 column">
+                        <div class="contact-form">
+                            <div class="container">
+                                <h3 style="padding-left:50px;padding-top:30px" class="wew fadeInUp" data-wew-delay="1s">
+                                    Exprimez-vous ..
+                                </h3>
+                                <form class="form contact-form" id="contact_form" method="post" action="http://hi-theme.com//html/big-construct/action.php"
+                                    style="padding-top:40px">
+
+                                    <table border="0" style="width:100% ">
+                                        <tr>
+                                            <td style="text-align:center">
+                                                <label for="fname">Prénom</label>
+                                            </td>
+                                            <td>
+                                                <input type="text" id="fname" name="firstname" placeholder="Prénom" style="width: 50%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align:center">
+                                                <label for="lname">Nom</label>
+                                            </td>
+                                            <td>
+                                                <input type="text" id="lname" name="lastname" placeholder="Nom" style="width: 50%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align:center">
+                                                <label for="phone">téléphone</label>
+                                            </td>
+                                            <td>
+                                                <input type="text" id="phone" name="phone" placeholder="+216 xx xxx xxx" style="width: 50%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical">
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align:center">
+                                                <label for="subject">sujet</label>
+                                            </td>
+                                            <td>
+                                                <input type="text" id="subject" name="subject" placeholder="Sujet" style="width: 50%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align:center">
+                                                <label for="message">message</label>
+                                            </td>
+                                            <td>
+                                                <textarea id="message" name="message" placeholder="Exprimez-vous.." style="height:200px;width: 50%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical"></textarea>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <center>
+                                        <input type=" submit " value="Envoyer " onmouseover="this.style.background='#9d9c9c';;this.style.color='#ffffff';" onmouseout="this.style.background='#434c9a';this.style.color='#ffffff';"
+                                            style="text-align:center;background-color: #434c9a;color: white;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer;">
+                                        <!--  <br>
+                                        <br>
+                                        <br>
+                                        <a href="#" class="btn-floating btn-large btn-fb" style="padding:10px;color:#434c9a">
+                                            <i class="fa fa-facebook fa-2x"></i>
+                                        </a>
+                                        <a href="#" class="btn-floating btn-large btn-tw" style="padding:10px;color:#434c9a">
+                                            <i class="fa fa-twitter fa-2x"></i>
+                                        </a>
+                                        <a href="#" class="btn-floating btn-large btn-li" style="padding:10px;color:#434c9a">
+                                            <i class="fa fa-linkedin fa-2x"></i>
+                                        </a>
+                                        <a href="#" class="btn-floating btn-large btn-email" style="padding:10px;color:#434c9a">
+                                            <i class="fa fa-envelope fa-2x"></i>
+                                        </a>-->
+                                    </center>
+
+
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+			
+        </div>
+    </section>
+
+     <div class="map ">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.786064919157!2d10.19549771531439!3d36.84759937272966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34c602c55555%3A0x4848f65786461813!2sR%C3%A9sidence+les+Lilas!5e0!3m2!1sfr!2stn!4v1545063939819"
+                width="100% " height="400 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+        </div>
+      <!--Footer start-->
+   <div class="footer-container ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="footer-logo ">
+                        <img src="images/wob.png ">
+                    </div>
+                    <p>Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium
+                        lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                        Curae;
+                        <a href="# ">Read More</a>
+                    </p>
+                    <div class="social-icons ">
+                        <a href="#. " target="_blank ">
+                            <i class="fa fa-facebook " aria-hidden="true "></i>
+                        </a>
+                        <a href="#. " target="_blank ">
+                            <i class="fa fa-twitter " aria-hidden="true "></i>
+                        </a>
+                        <a href="#. " target="_blank ">
+                            <i class="fa fa-google-plus " aria-hidden="true "></i>
+                        </a>
+                        <a href="#. " target="_blank ">
+                            <i class="fa fa-linkedin " aria-hidden="true "></i>
+                        </a>
+                        <a href="#. " target="_blank ">
+                            <i class="fa fa-youtube " aria-hidden="true "></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                
+                    <div class="col-md-3 col-sm-4 col-xs-12 ">
+                    <h3>Navigation</h3>
+                    <ul class="footer-blocks width-50 ">
+                        <li>
+                            <a href="# "> Accueil </a>
+                        </li>
+                        <li>
+                            <a href="page-about-me.html"> Le cabinet</a>
+                        </li>
+                        <li>
+                            <a href="blog-grid-full-width.html"> Actualités</a>
+                        </li>
+                        <li>
+                            <a href="page-services-2.html"> Nos services </a>
+                        </li>
+                        <li>
+                            <a href="elements-icon-boxs.html"> Publications </a>
+                        </li>
+                        <li>
+                            <a href="page-contact-us-1.html"> Contact </a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12 ">  <!--ajouter .col-md-3={width:25%}-->
+                    <h3 class="m-t-10 ">Contact</h3>
+                    <div class="footer-address ">Cabinet Wajdi ABDELHEDI - Résidence LES LILAS, Bloc B, 5ème étage, bureau n°11 Centre Urbain Nord, 1082,
+                        Tunis
+                    </div>
+                    <div class="call-us ">
+                        <a href="# ">(+216) 71 948 214</a>
+                        <br>
+                        <a href="# ">(+216) 71 949 214</a>
+                    </div>
+                    <div class="fax ">
+                        <a href="# ">(+216) 71 948 177</a>
+                    </div>
+
+                </div>
+              
+
+            </div>
+            <div class="col-md-12">
+                    <div class="newsletter">
+                        <h2>Inscription Newsletter</h2>
+                        <p class="heading-description"></p>
+                        <div class="newsletter-form">
+                            <form class="home-newsletter" action="#">
+                                <div class="newsletter-container">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <input type="email" name="email" id="email" placeholder="Entrez votre adresse EMAIL..." required>
+                                    <input type="submit" name="submit" id="submmit" value="S'inscire">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <div class="footerWrp ">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-7 ">
+                        <div class="copyright ">© 2019 WAB expert comptable | All Rights Reserved</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/modernizr.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-animate.min.js"></script>
+    <script type="text/javascript" src="js/angular-aria.min.js"></script>
+    <script type="text/javascript" src="js/angular-messages.min.js"></script>
+    <script type="text/javascript" src="js/angular-material.min.js"></script>
+    <script type="text/javascript" src="js/assets-cache.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/morphext.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/wew.min.js"></script>
+    <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from hi-theme.com//html/big-construct/blog-grid-full-width.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Oct 2018 21:02:54 GMT -->
+</html>
