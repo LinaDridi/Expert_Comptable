@@ -43,7 +43,7 @@
                 <div class="col-md-6 col-sm-6">
                     <ul class="topbar-blocks">
                         <li>
-                            <a class="login-popup md-primary md-raised" ng-click="showTabDialog($event)" flex-sm="100" flex-md="100" flex-gt-md="auto">
+                            <a class="login-popup md-primary md-raised" ng-click="showTabDialog($event)" flex-sm="100" flex-md="100" flex-gt-md="auto" href="page_login.html">
                                 <i class="fa fa-user" aria-hidden="true"></i> Login /Register</a>
                         </li>
                     </ul>
@@ -85,19 +85,19 @@
                                         <a href="index-1.html"> Accueil </a>
                                     </li>
                                     <li class="dropdown mega-dropdown">
-                                        <a href="page-about-me.html" class="dropdown-toggle" data-toggle="dropdown">Le cabinet</a>
+                                        <a href="page-about-me.html">Le cabinet</a>
 
                                     </li>
                                     <li class="dropdown mega-dropdown">
-                                        <a href="blog-grid-full-width.html" class="dropdown-toggle" data-toggle="dropdown">Actualités</a>
+                                        <a href="page_actualités.html">Actualités</a>
 
                                     </li>
                                     <li class="dropdown mega-dropdown">
-                                        <a href="page-services-2.html" class="dropdown-toggle" data-toggle="dropdown">Nos services</a>
+                                        <a href="page-services-2.html">Nos services</a>
 
                                     </li>
                                     <li>
-                                        <a href="elements-icon-boxs.html"> Publication</a>
+                                        <a href="page_publications.html"> Publication</a>
                                     </li>
                                     <li>
                                         <a href="page-contact-us-1.html"> Contact</a>
@@ -328,7 +328,7 @@ Membre de l’Ordre des Experts Comptables de Tunisie</blockquote> </p>
         <div class="container">
 		<div class="row p-b-60">
                 <div class="col-md-8 col-xs-12 col-md-offset-2">
-                    <h1>NOS SERVICES</h1>
+                    <h1>NOS ACTUALITES</h1>
                     <p class="text-center"></p>
                 </div>
             </div>
@@ -382,14 +382,78 @@ Membre de l’Ordre des Experts Comptables de Tunisie</blockquote> </p>
                     </li>
                 </ul>
 
-                 
+
             </div>
 
-        
+
         </div>
     </section>
-     
-    
+
+    <section id="blog" class="service-container">
+        <div class="container">
+            <div class="row p-b-60">
+                <div class="col-md-8 col-xs-12 col-md-offset-2">
+                    <h1>NOS PUBLICATIONS</h1>
+                    <p class="text-center"></p>
+                </div>
+            </div>
+            <!-- Blog List start -->
+            <div class="blog-container">
+                <ul class="row blog-grid-show">
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/1.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">Ce qui reste pour la loi sur les startups</a></h4>
+                                    <div class="post-info-meta">Date: <span>10/05/2015</span> </a></div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>Ce qui reste pour la loi sur les startups...</p>
+                                    <a href="blog-details-full-width.html" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/2.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">Dispositions fiscales prévues suite à la promulgation de la loi de finances pour la gestion 2018</a></h4>
+                                    <div class="post-info-meta">Date: <span>27/12/2017</span></div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>Dispositions fiscales prévues suite à la promulgation de la loi de finances pour la gestion 2018...</p>
+                                    <a href="#" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6">
+                        <div class="blog-inter">
+                            <div class="postimg"> <img class="actual" src="images/3.jpg" alt="Blog Title"></div>
+                            <div class="post-grid-desc">
+                                <div class="blog-post-heading">
+                                    <h4><a href="#">PRINCIPALES DISPOSITIONS PRÉVUES PAR LA LOI DE FINANCES POUR LA GESTION 2015</a></h4>
+                                    <div class="post-info-meta">Date: <span>08/01/2015</span> </div>
+                                </div>
+                                <div class="post-info-meta">
+                                    <p>La loi n° 2014 - 59 du 26 décembre 2014, portant loi de finances pour l'année 2015, a prévu les principales dispositions suivantes ...</p>
+                                    <a href="#" class="btn-style-1 size-small light-skin uppercase corner-rounded">Suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
     <section id="contact" class="page-section main-content">
         <div class="container">
            
@@ -598,13 +662,13 @@ Membre de l’Ordre des Experts Comptables de Tunisie</blockquote> </p>
                             <a href="page-about-me.html"> Le cabinet</a>
                         </li>
                         <li>
-                            <a href="blog-grid-full-width.html"> Actualités</a>
+                            <a href="page_actualités.html"> Actualités</a>
                         </li>
                         <li>
                             <a href="page-services-2.html"> Nos services </a>
                         </li>
                         <li>
-                            <a href="elements-icon-boxs.html"> Publications </a>
+                            <a href="page_publications.html"> Publications </a>
                         </li>
                         <li>
                             <a href="page-contact-us-1.html"> Contact </a>
